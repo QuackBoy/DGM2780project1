@@ -1,0 +1,112 @@
+/*-----HEADER-----*/
+  header {
+    padding-bottom: 5em;
+  }
+
+  header img {
+    float: left;
+  }
+
+  header h1 {
+    font-weight: bold;
+    font-size: 6em;
+    font-family: garamond;
+  }
+
+/*-----NAVIGATION-----*/
+#nav {
+  z-index:9999;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+.navbar-custom {
+  background-color: #004890;
+  border: solid 1px;
+}
+
+#nav a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#nav a:hover {
+  background-color: #004890;
+  color: #FFA000;
+}
+
+.navbar-toggle {
+  background-color: #004890;
+  border: 1px solid;
+}
+
+.icon-bar {
+  background-color: #fff;
+}
+
+input[type=text] {
+  margin-right: .5em;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  font-family: Arial;
+}
+
+button {
+  border-radius: 4px;
+  background-color: #FFA000;
+  border: none;
+  font-family: Arial;
+  padding-bottom: .3em;
+  padding-top: .2em;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #fff;
+  transition: .5s;
+}
+
+@media only screen and (min-width: 600px) {
+  #nav form {
+  padding-top: 1em;
+  }
+}
+
+/*-----CAROUSEL-----*/
+.carousel-inner {
+  margin: auto;
+  width: 80%;
+}
+
+/*-----CONTENT-----*/
+.container h1.cc {
+  color: #004890;
+  border-bottom: solid 4px #000;
+}
+
+.container h2 {
+  text-align: center;
+}
+
+.glyphicon-book:hover {
+  transition: .5s;
+  color: #004890;
+}
+
+/*-----IMAGES-----*/
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 1em;
+}
+
+/*-----FOOTER-----*/
+footer p {
+  text-align: center;
+}
